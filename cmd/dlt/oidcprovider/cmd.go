@@ -46,6 +46,7 @@ func init() {
 
 	ocm.AddClusterFlag(Cmd)
 	aws.AddModeFlag(Cmd)
+	interactive.AddFlag(flags)
 	confirm.AddFlag(flags)
 }
 

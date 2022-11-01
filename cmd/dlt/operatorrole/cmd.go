@@ -60,6 +60,7 @@ func init() {
 		"ID or Name of the cluster (deleted/archived) to delete the operator roles from (required).",
 	)
 	aws.AddModeFlag(Cmd)
+	interactive.AddFlag(flags)
 	confirm.AddFlag(flags)
 }
 
